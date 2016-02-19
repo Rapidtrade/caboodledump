@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+accesskey	producthistory.json	/^    "accesskey": "GOOGYPA7N6QF23FPWEB5",$/;"	f
+bucket	producthistory.json	/^    "bucket": "rapidtradeinbox",$/;"	f
+connectionString	producthistory.json	/^    "connectionString": "server=10.0.0.233;user id=rapidws;password=rapidpwd;port=1433;database=LGB05-51BLM",$/;"	f
+connectionStringo	producthistory.json	/^    "connectionStringo": "Data Source=10.0.0.233;Initial Catalog",$/;"	f
+database	producthistory.json	/^    "database": "LGB05-51BLM",$/;"	f
+host	producthistory.json	/^    "host": "10.0.0.233",$/;"	f
+lastdate	producthistory.json	/^    "lastdate": "2011-01-01",$/;"	f
+name	producthistory.json	/^    "name": "ProductHistory",$/;"	f
+nextmonth	producthistory.json	/^    "nextmonth": "1408"$/;"	f
+optionsurl	producthistory.json	/^    "optionsurl": "http:\/\/app.rapidtrade.biz\/rest\/Options\/Get?supplierID=LILGREEN&name%3DCaboodleProductLastDate&group%3Dcaboodle&format%3Djson",$/;"	f
+password	producthistory.json	/^    "password": "rapidpwd",$/;"	f
+secretkey	producthistory.json	/^    "secretkey": "nhlR6SpWH8v9Rkv6Oek5i+BUCI5mBPD1Mo+hr7HK",$/;"	f
+sqlfile	producthistory.json	/^    "sqlfile": "\/etc\/caboodle\/producthistory.sql",$/;"	f
+supplierid	producthistory.json	/^    "supplierid": "LILGREEN",$/;"	f
+username	producthistory.json	/^    "username": "rapidws",$/;"	f
+workingfolder	producthistory.json	/^    "workingfolder": "tmp",$/;"	f
