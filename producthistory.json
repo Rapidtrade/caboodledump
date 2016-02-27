@@ -1,14 +1,1 @@
-{
-    "accesskey":"GOOGYPA7N6QF23FPWEB5",
-    "bucket":"rapidtradeinbox",
-    "connectionString":"server=10.0.0.233;user id=rapidws;password=rapidpwd;port=1433;database=LGB05-51BLM",
-    "database":"LGB05-51BLM",
-    "host":"10.0.0.233",
-    "name":"ProductHistory",
-    "nextmonth":"1412",
-    "password":"rapidpwd",
-    "secretkey":"nhlR6SpWH8v9Rkv6Oek5i+BUCI5mBPD1Mo+hr7HK",
-    "supplierid":"LILGREEN",
-    "username":"rapidws",
-    "workingfolder":"tmp"
-}
+{"accesskey":"GOOGYPA7N6QF23FPWEB5","bucket":"rapidtradeinbox","connectionString":"server=10.0.0.233;user id=rapidws;password=rapidpwd;port=1433;database=LGB05-51BLM","database":"LGB05-51BLM","host":"10.0.0.233","name":"ProductHistory","nextmonth":"1501","password":"rapidpwd","secretkey":"nhlR6SpWH8v9Rkv6Oek5i+BUCI5mBPD1Mo+hr7HK","supplierid":"LILGREEN","username":"rapidws","workingfolder":"tmp"}

@@ -1,0 +1,98 @@
+{
+  "schema":
+  {
+    "fields":
+    [
+      {
+        "name": "SupplierID",
+        "type": "STRING"
+      },
+      {
+        "name": "OrderDate",
+        "type": "STRING"
+      },
+      {
+        "name": "Year",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Month",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Hour",
+        "type": "INTEGER"
+      },
+      {
+        "name": "Quarter",
+        "type": "INTEGER"
+      },
+      {
+        "name": "AccountID",
+        "type": "STRING"
+      },
+      {
+        "name": "Name",
+        "type": "STRING"
+      },
+      {
+        "name": "GroupCode",
+        "type": "STRING"
+      },
+      {
+        "name": "GroupDescription",
+        "type": "STRING"
+      },
+      {
+        "name": "RepCode",
+        "type": "STRING"
+      },
+      {
+        "name": "RepName",
+        "type": "STRING"
+      },
+      {
+        "name": "ProductID",
+        "type": "STRING"
+      },
+      {
+        "name": "CategoryCode",
+        "type": "STRING"
+      },
+      {
+        "name": "CategoryDescription",
+        "type": "STRING"
+      },
+      {
+        "name": "Ordered",
+        "type": "FLOAT"
+      },
+      {
+        "name": "Delivered",
+        "type": "FLOAT"
+      },
+      {
+        "name": "LineTotal",
+        "type": "FLOAT"
+      },
+      {
+        "name": "Cost",
+        "type": "FLOAT"
+      }
+    ]
+  },
+  "friendlyName": "LILGREEN_ProductHistory2",
+  "externalDataConfiguration":
+  {
+    "sourceFormat": "CSV",
+    "sourceUris":
+    ["gs://rapidtradeinbox/LILGREEN_ProductHistory_1412.csv"
+    ]
+  },
+  "tableReference":
+  {
+    "datasetId": "History",
+    "projectId": "citric-optics-107909",
+    "tableId": "LILGREEN_ProductHistory2"
+  }
+}

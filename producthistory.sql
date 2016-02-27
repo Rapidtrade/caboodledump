@@ -17,7 +17,7 @@ select top 20
   fQuantity as Ordered,
   fQtyProcessed as Delivered,
   fQuantityLineTotExcl as LineTotal,
-  AveUCst as Cost
+  convert(decimal(10,2),AveUCst) as Cost
 from [InvNum](nolock)
 inner join Client(nolock) on Client.DCLink = InvNum.AccountID
 inner Join CliClass(nolock) cl on Client.iClassID = cl.idCliClass
