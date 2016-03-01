@@ -12,6 +12,7 @@ import (
 	"time"
 
 	"github.com/Rapidtrade/gotools/file"
+	"github.com/Rapidtrade/gotools/gcloud"
 
 	_ "github.com/denisenkom/go-mssqldb"
 )
@@ -40,11 +41,13 @@ func main() {
 	zipfilename := strings.Replace(csvfilename, "csv", "zip", -1)
 	file.ZipIT(csvfilename, zipfilename)
 	Info.Println("Sending: " + zipfilename)
-	file.SendGS(zipfilename, file.GetProperty(props, "bucket"))
-
-	// Save last month
 	_ = "breakpoint"
-	savelastmonth(props, nextmonth)
+	err = gcloud.SendGS(file.GetProperty(props, "bucket"), "", zipfilename)
+	if err != nil {
+		Error.Println(err)
+	} else {
+		savelastmonth(props, nextmonth)
+	}
 }
 
 // Returns true we busy reading current month

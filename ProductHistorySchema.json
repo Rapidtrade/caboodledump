@@ -82,13 +82,6 @@
     ]
   },
   "friendlyName": "LILGREEN_ProductHistory2",
-  "externalDataConfiguration":
-  {
-    "sourceFormat": "CSV",
-    "sourceUris":
-    ["gs://rapidtradeinbox/LILGREEN_ProductHistory_1412.csv"
-    ]
-  },
   "tableReference":
   {
     "datasetId": "History",
