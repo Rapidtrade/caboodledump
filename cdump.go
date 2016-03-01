@@ -143,7 +143,7 @@ func downloadCSV(props map[string]interface{}) (csvfilename string, nextmonth st
 	// Loop to write CSV file
 	for rows.Next() {
 		//err = rows.Scan(&rslt.SupplierID, &rslt.OrderDate, &rslt.Year, &rslt.Month, &rslt.Hour, &rslt.Quarter, &rslt.AccountID, &rslt.Name, &rslt.GroupCode, &rslt.GroupDecription, &rslt.RepCode, &rslt.RepName, &rslt.ProductID, &rslt.CategoryCode, &rslt.CategoryDescription, &rslt.Ordered, &rslt.Delivered, &rslt.LineTotal, &rslt.Cost)
-		var row [19]string
+		var row [21]string
 		err = rows.Scan(&row[0], &row[1], &row[2], &row[3], &row[4], &row[5], &row[6], &row[7], &row[8], &row[9], &row[10], &row[11], &row[12], &row[13], &row[14], &row[15], &row[15], &row[16], &row[17], &row[18], &row[19])
 		if err != nil {
 			log.Fatal("Scan failed:", err.Error())
