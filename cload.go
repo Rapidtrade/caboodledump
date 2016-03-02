@@ -42,7 +42,10 @@ func main() {
 		ufiles, _ := file.UnZipIT(wfolder, zfile)
 		for _, ufile := range ufiles {
 			//send CSV back to GS folder so we can load it via a job
-			gcloud.SendGS("rapidtradepending", "", filepath.Join(wfolder, ufile))
+			err = gcloud.SendGS("rapidtradepending", "", filepath.Join(wfolder, ufile))
+			if err != nil {
+				Error.Println(err)
+			}
 		}
 	}
 

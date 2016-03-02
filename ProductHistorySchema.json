@@ -8,6 +8,14 @@
         "type": "STRING"
       },
       {
+        "name": "BranchID",
+        "type": "STRING"
+      },
+      {
+        "name": "BranchDescription",
+        "type": "STRING"
+      },
+      {
         "name": "OrderDate",
         "type": "STRING"
       },
